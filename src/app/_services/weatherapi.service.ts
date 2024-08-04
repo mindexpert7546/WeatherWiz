@@ -10,7 +10,7 @@ export class WeatherapiService {
 
   constructor(private _http: HttpClient) { }
 
-  private readonly apiKey = 'bfmFpl2i91q8nSv3ovaiOdeXHf8rwdaV';
+  private readonly apiKey = 'BNCebUsHDcBsvKOw0hdyP79dXFFBNDGW';
   private readonly defaultLocation = 'Chennai';
   private apiUrl = `https://api.tomorrow.io/v4/weather/realtime?location=${this.defaultLocation}&apikey=${this.apiKey}`;
   getDefaultWeather(): Observable<ApiResponse>{
