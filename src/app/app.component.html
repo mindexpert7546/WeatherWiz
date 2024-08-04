@@ -20,39 +20,39 @@
     </form>
     <div class="city-temp backgroundimg">
       <div class="city-name">
-        <h2>{{weatherData?.location?.name}}</h2>
+        <h2>{{weatherData.location.name}}</h2>
       </div>
       <div class="city-name">
-        <h1>{{weatherData?.data?.values?.temperature}} <span>&#176;</span>C</h1>
+        <h1>{{weatherData.data.values.temperature}} <span>&#176;</span>C</h1>
       </div>
     </div>
     <div class="grid-data">
       <div class="city-name">
         <div class="data1">
           <div class="icon-overlay pi pi-cloud-download m-1"></div>
-          <h2>Choud Base : {{weatherData?.data?.values?.cloudBase}} km</h2>
+          <h2>Choud Base : {{weatherData.data.values.cloudBase}} km</h2>
         </div>
         <div class="data1">
           <div class="icon-overlay pi pi-chevron-circle-down m-1"></div>
-          <h2>Freezing Rain-Intensity : {{weatherData?.data?.values?.freezingRainIntensity}} </h2>
+          <h2>Freezing Rain-Intensity : {{weatherData.data.values.freezingRainIntensity}} </h2>
         </div>
         <div class="data1">
           <div class="icon-overlay pi pi-asterisk m-1"></div>
-          <h2>Humidity : {{weatherData?.data?.values?.humidity}} %</h2>
+          <h2>Humidity : {{weatherData.data.values.humidity}} %</h2>
         </div>
       </div>
       <div class="city-name">
         <div class="data1">
           <div class="icon-overlay pi pi-cloud-upload m-1"></div>
-          <h2>Cloud Ceiling : {{weatherData?.data?.values?.cloudCeiling}} km</h2>
+          <h2>Cloud Ceiling : {{weatherData.data.values.cloudCeiling}} km</h2>
           </div>
           <div class="data1">
             <div class="icon-overlay pi pi-chevron-circle-left m-1"></div>
-            <h2>Pressue Surface Level : {{weatherData?.data?.values?.pressureSurfaceLevel}}</h2>
+            <h2>Pressue Surface Level : {{weatherData.data.values.pressureSurfaceLevel}}</h2>
           </div>
           <div class="data1">
             <div class="icon-overlay pi pi-gauge m-1"></div>
-          <h2>Wind Speed : {{weatherData?.data?.values?.windSpeed}} m/s</h2>
+          <h2>Wind Speed : {{weatherData.data.values.windSpeed}} m/s</h2>
           </div>
       </div>
     </div>
